@@ -1,0 +1,16 @@
+# aesthetics
+background-opacity = 0.85
+background-blur=16
+background=#000000
+macos-titlebar-style = tabs
+
+
+window-padding-x = 4
+window-padding-y = 4
+
+# typography
+font-family = "FiraCode Nerd Font"
+font-size=16
+font-thicken=true
+font-thicken-strength=1
+adjust-cell-height=1
