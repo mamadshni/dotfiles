@@ -3,6 +3,7 @@ background-opacity = 0.85
 background-blur=16
 background=#000000
 macos-titlebar-style = tabs
+macos-option-as-alt = true
 
 window-padding-x = 4
 window-padding-y = 4

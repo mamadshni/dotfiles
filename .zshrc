@@ -16,7 +16,6 @@ source <(fzf --zsh)
 source $ZSH/oh-my-zsh.sh
 
 # === PATH ===
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
