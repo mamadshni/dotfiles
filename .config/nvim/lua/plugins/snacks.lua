@@ -7,6 +7,7 @@ return {
           jump = { close = true },
           hidden = true,
           ignored = true,
+          layout = { layout = { position = "right" } },
         },
       },
       win = {
