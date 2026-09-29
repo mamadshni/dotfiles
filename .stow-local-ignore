@@ -1,0 +1,21 @@
+# Stow defaults (a local ignore file replaces them, so repeat them here)
+RCS
+.+,v
+CVS
+\.\#.+
+\.cvsignore
+\.svn
+_darcs
+\.hg
+\.git
+\.gitignore
+\.gitmodules
+.+~
+\#.*\#
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# Repo-only files
+^/CLAUDE\.md
+^/\.stow-local-ignore

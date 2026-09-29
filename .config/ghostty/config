@@ -19,3 +19,6 @@ background-blur-radius = 20
 mouse-hide-while-typing = true
 
 custom-shader = ./shaders/space.glsl
+
+# always start inside zellij (absolute path: GUI apps don't get Homebrew PATH)
+command = /opt/homebrew/bin/zellij

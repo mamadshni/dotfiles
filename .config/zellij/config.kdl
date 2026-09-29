@@ -572,6 +572,9 @@ load_plugins {
 //
 // show_release_notes false
 
+// Whether to show usage tips on startup
+show_startup_tips false
+
 // Whether to enable mouse hover effects and pane grouping functionality
 // Default: true
 //

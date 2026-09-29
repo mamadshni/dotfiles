@@ -2,7 +2,6 @@
 
 # === must run BEFORE oh-my-zsh so $fpath is complete for compinit ==
 
-eval "$(zoxide init zsh --cmd cd)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 typeset -U path PATH
 
@@ -57,5 +56,8 @@ corepack() { _load_nvm; corepack "$@"; }
     zcompile "$zcompdump"
   fi
 } &!
+
+# === zoxide: must be last (after compinit), per zoxide docs ===
+eval "$(zoxide init zsh --cmd cd)"
 
 # zprof
