@@ -1,6 +1,8 @@
 return {
   "folke/snacks.nvim",
   opts = {
+    -- use ~/.config/lazygit/config.yml (catppuccin/lazygit theme) instead of generated theme
+    lazygit = { configure = false },
     picker = {
       sources = {
         explorer = {

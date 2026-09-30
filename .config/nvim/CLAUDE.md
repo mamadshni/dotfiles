@@ -45,3 +45,6 @@ Before adding a plugin, check: `:Lazy` — it might already be there.
 ## Changelog (Living Docs)
 <!-- Claude Code: append entries here after every change -->
 <!-- Format: `- YYYY-MM-DD: <what changed> (<filename>)` -->
+- 2026-09-30: switch colorscheme to catppuccin (mocha dark w/ base #11111b, latte light) (catppuccin.lua)
+- 2026-09-30: use colorscheme "catppuccin-nvim" (plain "catppuccin" = nvim 0.12 built-in, ignores plugin opts) (catppuccin.lua)
+- 2026-09-30: snacks lazygit configure=false; theme from ~/.config/lazygit/config.yml (catppuccin/lazygit) (snacks.lua)

@@ -18,4 +18,5 @@ _darcs
 
 # Repo-only files
 ^/CLAUDE\.md
+^/PACKAGES\.md
 ^/\.stow-local-ignore

@@ -375,8 +375,8 @@ load_plugins {
 // remains authoritative. Until the host terminal reports (or if it never does),
 // the dark theme is used.
 //
-// theme_dark "nightfox"
-// theme_light "dayfox"
+theme_dark "catppuccin-mocha-dark"
+theme_light "catppuccin-latte"
 
 // Pin the session to a dark or light appearance, ignoring what the host
 // terminal reports. Resolved before the first render. When unset, the host
