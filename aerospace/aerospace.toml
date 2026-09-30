@@ -139,7 +139,7 @@ run = 'layout tiling'
 # '''
 
 alt-ctrl-shift-f = 'fullscreen'
-alt-ctrl-f = 'layout floating tiling'
+alt-shift-f = 'layout floating tiling'
 
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout

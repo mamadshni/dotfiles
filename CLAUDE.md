@@ -35,6 +35,14 @@ For any tool not listed: search for its official docs first, then add a row here
 
 - Neovim: also follow `.config/nvim/CLAUDE.md`.
 
+## Keybinding Changes: Check Conflicts, Ask First
+
+Before adding or changing **any** shortcut (AeroSpace, Zellij, Neovim, Ghostty, Hammerspoon, tmux, Zsh, …):
+
+1. Check the new key against every layer. Keys are handled in this order: AeroSpace / Hammerspoon (global) → Ghostty → Zellij → Neovim / shell. Include tool defaults, not just this repo's config (Zellij merges defaults unless `clear-defaults=true`; LazyVim ships its own keymaps).
+2. Report the conflicts to the user first: the key, what each layer does with it, and which layer wins. If nothing clashes, say so.
+3. Only edit after the user approves.
+
 ## Conventions
 
 - Keep configs minimal and commented only where intent is non-obvious.
