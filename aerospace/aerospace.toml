@@ -102,11 +102,13 @@ gaps.outer.top = 10
 if.app-name-regex-substring = 'finder'
 run = 'layout floating'
 
-# Ghostty native tabs are separate macOS windows. Force tiling on detection
-# (Ghostty's recommended fix): https://ghostty.org/docs/help/macos-tiling-wms
 [[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
-run = 'layout tiling'
+if.app-id = 'com.microsoft.teams2'
+run = 'move-node-to-workspace 6'
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.Outlook'
+run = 'move-node-to-workspace 7'
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
