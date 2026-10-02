@@ -30,6 +30,7 @@ brew install --cask nikitabobko/tap/aerospace
 | `neovim` | Editor (LazyVim) | `.config/nvim/` |
 | `zellij` | Terminal multiplexer (alias `zj`) | `.config/zellij/` |
 | `lazygit` | Git TUI, also opened from nvim | `.config/lazygit/config.yml` |
+| `yazi` | Terminal file manager | `.config/yazi/` |
 | `fzf` | Fuzzy finder, shell keybindings (`source <(fzf --zsh)`) | `.zshrc` |
 | `zoxide` | Smarter `cd` (`zoxide init zsh --cmd cd`) | `.zshrc` |
 | `ripgrep` | Search backend for nvim pickers | — |
@@ -40,7 +41,7 @@ brew install --cask nikitabobko/tap/aerospace
 | `tmux` | Optional: config kept, zellij is the daily driver | `.config/tmux/tmux.conf` |
 
 ```bash
-brew install stow neovim zellij lazygit fzf zoxide ripgrep fd gh luarocks python
+brew install stow neovim zellij lazygit yazi fzf zoxide ripgrep fd gh luarocks python
 brew install tmux   # optional
 ```
 
@@ -73,3 +74,5 @@ Catppuccin Mocha (dark) / Latte (light) everywhere; theme files live in the repo
 - Zellij: `.config/zellij/themes/catppuccin-mocha-dark.kdl`
 - Neovim: `catppuccin/nvim` plugin via `.config/nvim/lua/plugins/catppuccin.lua`
 - Lazygit: `.config/lazygit/config.yml`
+- fzf: `FZF_DEFAULT_OPTS` in `.zshrc`
+- Yazi: `.config/yazi/theme.toml` (catppuccin/yazi mocha-blue) + `Catppuccin-mocha.tmTheme` (catppuccin/bat) for code previews

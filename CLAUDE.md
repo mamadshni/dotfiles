@@ -28,6 +28,8 @@ If docs and existing config disagree, flag it and prefer the docs.
 | Hammerspoon | `.hammerspoon/init.lua` | https://www.hammerspoon.org/docs/ |
 | Zsh | `.zshrc` | https://zsh.sourceforge.io/Doc/ |
 | GNU Stow | repo root | https://www.gnu.org/software/stow/manual/ |
+| lazygit | `.config/lazygit/config.yml` | https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md |
+| Yazi | `.config/yazi/` | https://yazi-rs.github.io/docs/configuration/overview |
 
 For any tool not listed: search for its official docs first, then add a row here.
 
